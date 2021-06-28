@@ -1,0 +1,66 @@
+.section__emi{
+
+    background-image: url(../../web/imagenes/fondos/fondo__1.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    // background-attachment: fixed;
+    background-size: cover; 
+   
+
+    .imagenes {
+        
+        display : flex ; 
+        justify-content: space-around ; 
+        
+        background-color: #fff;
+        padding : 10px ; 
+        max-width: 430px;
+        margin: 0 auto;
+        position : relative ; 
+        top: -60px;
+        
+
+        .box-img-3 {
+            width: 800px;
+            height: auto;
+            background-color: #fff;
+            border: 5px solid transparent;
+            border-radius: 5px;
+            padding: 5px;
+            text-align: center;
+            box-shadow: rgb(0 0 0 / 30%) 1px 1px 10px ;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .box-img {
+            width: 100%;
+            height: auto;
+           display : flex ;
+           justify-content: flex-end;
+           
+
+
+            .img-emi {
+
+              width: 100%;
+              height: auto;  
+              
+
+            }
+        }
+
+
+    }
+
+   
+}

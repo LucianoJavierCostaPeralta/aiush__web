@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+/*Header*/
+.header {
+  background-image: url(../../web/imagenes/headerAndFooter/Header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85rem;
+}
+.header .navbar {
+  color: #000;
+}
+.header .navbar .logo {
+  width: 6rem;
+  height: auto;
+}
+
+/*/header*/
+.section__emi {
+  background-image: url(../../web/imagenes/fondos/fondo__1.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section__emi .imagenes {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  padding: 10px;
+  max-width: 430px;
+  margin: 0 auto;
+  position: relative;
+  top: -60px;
+}
+.section__emi .imagenes .box-img-3 {
+  width: 800px;
+  height: auto;
+  background-color: #fff;
+  border: 5px solid transparent;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 10px;
+}
+.section__emi .imagenes .box-img-3 img {
+  width: 100%;
+  height: auto;
+}
+.section__emi .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section__emi .container .box-img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.section__emi .container .box-img .img-emi {
+  width: 100%;
+  height: auto;
+}
+
+.servicios {
+  background-image: url(../../web/imagenes/fondos/img-serv.jpg);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85rem;
+}
+
+/*# sourceMappingURL=style.css.map */
